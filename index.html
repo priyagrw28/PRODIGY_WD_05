@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body id="body">
+    <h1>WEATHER APP </h1>
+    <P class="about"> A webpage that fetches weather data from a weather API based on the user's location or a user inputted location. Displays the current temperature, Location, Date, Day, Time and  Weather Conditions.
+Following are the steps that need to be followed:</p>
+    <ol class="steps">
+        <li>Choose a Weather API</li>
+        <li>Get an API Key</li>
+        <li>Create a Webpage that fetches weather data using JavaScript</li>
+        <li>Add an input field where users can enter a Location</li>
+        <li>Styling and Enhancements by Using CSS to style our webpage</li>
+    </ol>
+
+    <div class="container">
+        <div class="weatherContainer">
+            <div class="temp">
+                <p>20</p>
+            </div>
+
+            <div class="time_location">
+                <p>Delhi</p>
+                <span>12:58 - Monday 2022-09-26</span>
+            </div> 
+            
+            <div class="condition">
+                <p> Mist </p>
+            </div>
+        </div>
+        
+        <nav>
+            <form>
+                <input type="text" placeholder="Search for a location" class="search_area"/>
+                <button type="submit" class="search_button">Search</button>
+            </form>
+        </nav>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

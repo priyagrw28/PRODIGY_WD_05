@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin-top: 2%;
+}
+
+.about{
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: rgb(24, 24, 67);
+
+}
+
+.steps{
+    margin: 1%;
+    margin-left: 5%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: rgb(24, 24, 67);
+
+}
+
+.container{
+    width: 50%;
+    height: 50vh;
+    background-color: rgba(128, 1, 1, 0.907);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    margin: auto;
+    margin-top: 3%;
+    padding: 0%;
+}
+
+.weatherContainer{
+    color: white;
+
+}
+
+.temp{
+    font-size: 5rem;
+}
+
+.time_location{
+    font-size: 2rem;
+}
+
+.condition{
+   margin: 0.5rem;
+   margin-left: 0.2rem; 
+}
+
+nav{
+    height: 100px;
+    margin: 5rem;
+}
+
+.search_area{
+    padding: 1rem 0;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-bottom: 2px solid white;
+}
+
+nav form button{
+    background-color: white;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+}
